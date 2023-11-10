@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import {Components} from 'react'
 import Cookies from 'js-cookie'
 import {BsSearch} from 'react-icons/bs'
 import Loader from 'react-loader-spinner'

@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import {Components} from 'react'
 import Cookies from 'js-cookie'
 import {AiFillStar} from 'react-icons/ai'
 import {IoLocationSharp} from 'react-icons/io5'
@@ -46,7 +46,7 @@ class JobItemDetails extends Component {
         imageUrl: eachSkill.image_url,
         name: eachSkill.name,
       })),
-      lifeAtCompnay: {
+      lifeAtCompany: {
         description: jobDetails.life_at_company.description,
         imageUrl: jobDetails.life_at_company.image_url,
       },
@@ -134,7 +134,7 @@ class JobItemDetails extends Component {
       packagePerAnnum,
       companyWebsiteUrl,
       skills,
-      lifeAtCompnay,
+      lifeAtCompany,
     } = jobDetails
 
     return (
@@ -192,7 +192,7 @@ class JobItemDetails extends Component {
             <p className="life-description">{lifeAtCompnay.description}</p>
             <img
               className="life-image"
-              src={lifeAtCompnay.imageUrl}
+              src={lifeAtCompany.imageUrl}
               alt="life at company"
             />
           </div>

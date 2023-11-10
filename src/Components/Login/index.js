@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import {Components} from 'react'
 import Cookies from 'js-cookie'
 import {Redirect} from 'react-router-dom'
 
